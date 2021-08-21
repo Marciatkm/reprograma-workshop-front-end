@@ -1,0 +1,141 @@
+ *{
+ box-sizing: border-box;
+ margin: 0;
+
+}
+body{
+    font-family: 'Raleway',Arial, Helvetica, sans-serif
+}
+.banner{
+    background:url(../img/gigiinvertido.png) center no-repeat;
+    background-size: cover;
+    height: 70vh; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color:#ffffff;
+
+
+}
+.banner p{
+    margin: 09px ;
+}
+h1{
+    margin: 13px;
+
+}
+
+.btn-branco{
+   
+    color:#7e459b;
+    background-color: white;
+    text-transform: uppercase;
+    border-radius: 80px;
+    padding: 10px;
+    
+
+}
+a{
+    text-decoration: none;
+}
+.principal{
+    height: 50vh;
+}
+.principal h2{
+  text-align: left; 
+  margin: 30px 100px 30px 30px;
+  color: #c4c4c4;
+  font-size: 2rem;
+ 
+}
+.sobre-habilidades{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    margin: 05px;
+    
+
+}
+.btn-lilas{
+    color:#7e459b;
+    border:1px solid #7e459b;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 40px;
+    
+}
+.sobre,.habilidades {
+    width: 350px;
+    margin-left: 100px;
+    margin-right: 280px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-top: 30px;
+   
+   
+}
+.lista{
+    margin: 1em;
+    padding: 10px;
+}
+
+.sobre p{
+    margin-bottom: 25px ;
+    
+    
+    
+    
+}
+
+
+    
+.redes-sociais{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center ;
+    align-content: flex-start;
+    height: 30vh;
+    
+    
+   
+   
+   
+    
+}
+.redes-sociais a{
+    text-align: center;
+    background-color: #7e459b;
+    margin: 20px;
+    padding: 20px;
+    width: 180px;
+    height: 200px;
+    color: white;
+   
+    
+   
+}
+.redes-sociais img{
+    padding: 10px;
+  
+
+}
+.redes-sociais p{
+    padding: 10px;
+    margin-right:10em ;
+    margin-top: 10px;
+}
+.redes-sociais h3{
+    padding: 05px;
+}
+
+ 
